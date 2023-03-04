@@ -47,7 +47,7 @@ class _MainApp extends State<MainApp> {
           flnp.show(event.hashCode, event.notification!.title, event.notification!.body, 
             const NotificationDetails(android: AndroidNotificationDetails('high', 'high')));
           
-          print("msg  :  ${event.notification!.body}");
+          //print("msg  :  ${event.notification!.body}");
         });
         /*await flnp.initialize(const InitializationSettings(
             android: AndroidInitializationSettings('@mipmap/ic_launcher')));
